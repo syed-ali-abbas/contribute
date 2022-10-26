@@ -1,0 +1,230 @@
+hacktoberfest
+*{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+}
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+
+} */
+
+.img1{
+    margin:10px 20px !important;
+ 
+}
+.img1 img{
+
+    height: 3em !important;
+
+}
+.nav-link{
+    text-decoration:none !important ;
+    color: black !important;
+    border-radius: 20px;
+    margin: 10px;    
+}
+.active{
+    background-color: #316DC3 !important;
+}
+.nav-link:hover{
+    background-color: #316DC3 !important;
+}
+@media(max-width:900px){
+    .nav-link{
+      display: block !important;
+    }
+    .nav-item{
+        min-width: 100% !important;
+
+    }
+}
+
+.center{
+    background-color: #f1f1f1;
+    text-align: center;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.mp{
+    padding: 20px 0px;
+    margin: 0px;
+}
+.mp1{
+    padding: 40px !important;
+    /* margin-bottom: 30px !important; */
+}
+
+p.justify-center{
+    text-align: justify;
+    margin: 0em auto;
+    width: 70%;
+    font-size: 18px;
+}
+
+.blue{
+    color: #0066FF;
+}
+.green{
+    color:#00FF00;
+}
+.green1{
+    color: #427900;
+}
+.center1{
+    text-align: center;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.bg-blue{
+    margin: 30px 0px ;
+    background-color:rgba(13, 64, 245, 0.945);
+    width: 100% ;
+    align-content: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+.main img{
+    width: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+.main p{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    text-align: center;
+    color: white;
+}
+
+/*     --> bootstrap addition work <--  */
+.row-2 p ,.row-2 img{
+    display: inline-block; 
+    
+} 
+.border1{
+    background-color: #f1f1f1;
+}
+.hei{
+    height: 75px;
+}
+.line-bottom{
+    position: relative; 
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    
+}
+.line-bottom:after {
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+    background: #427900;
+}
+.ht{
+    height: 20em;
+}
+.bla{
+    background-color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+
+/* .block-img{
+    display: flex;
+}
+.block-img img{
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+} */
+
+
+
+/*     --> bootstrap addition work closed<--  */
+@media screen and (max-width:1122px){
+    .header{
+        display: block;
+        /* height: 6em; */
+    }
+    .header1{
+        margin-left: 25%;
+    }
+}
+
+/* important media Query. */
+/* @media screen and (max-width:899px){
+    .header{
+        display: block;
+
+    }
+    .header1{
+        display: block;
+        border-radius: 0px;
+        margin: 0px;
+        height: 100%;
+        width: 100%;
+    }
+    .head,.head1{
+        border: 1px solid black;
+        background:white;
+        border-radius: 0px;
+ 
+    }
+    .head1{
+        background-color: #316DC3;
+    }
+    .center{
+        margin-top: 30em;
+    }
+} */
+/* 
+@media screen and (max-width:700px){
+    body{ 
+        background-color: rgb(255, 25, 0);
+    }
+    .header{
+        flex: none;
+        display: block;
+    }
+    
+}
+@media screen and (max-width:500px){
+    body{ 
+        background-color:rgb(255, 1, 255);
+    }
+    .header{
+        display: block;
+    }
+    
+}
+@media screen and (max-width:300px){
+    body{ 
+        background-color:rgb(51, 252, 1);
+    }
+    .header{
+        flex: none;
+        display: block;
+    }
+    
+} */
+
